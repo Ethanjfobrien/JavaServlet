@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>forms page</title>
+        <meta http-equiv="Content-Type" content="text/html;
+          charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="FullNameServlet" method="POST">
+            <input type="text" name="firstName" placeholder="first name">
+            <input type="text" name="lastName" placeholder="last name">
+            <input type="submit" name="Submit">
+        </form>
+        <br>
+        <form action="NumberServlet" method="POST">
+            <input type="text" name="formInt" placeholder="type an int">
+            <input type="text" name="formFloat" placeholder="type a float">
+            <input type="submit" name="Submit">
+        </form>
+    </body>
+</html>
